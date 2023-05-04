@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.wrapper {
+  box-shadow: 0 0 128px o rgba(0, 0, 0, 0.1), 0 32px 64px rbga(0, 0, 0, 0.5);
+}
+
+.form {
+  padding: 25px 30px;
+}
+.form header {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.form form {
+  margin: 20px 0;
+}
+.form form .error-text {
+  color: #712c24;
+  background: #f8d7da;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.form form .field {
+  margin-bottom: 10px !important;
+}
+
+.users .users-list {
+  max-height: 380px;
+  overflow-y: auto;
+}
+.users .users-list a {
+  margin-bottom: 26px;
+  page-break-after: 26px;
+}
+.users .users-list a .content p {
+  color: #67676a;
+}
+.users .users-list a .status-dot.offline {
+  color: #ccc;
+}
+.users .users-list a:last-child {
+  margin-bottom: 0;
+}
+.users .users-list::-webkit-scrollbar {
+  width: 0px;
+}
+.users header {
+  border-bottom: 1px solid #e6e6e6;
+}
+.users .search .text {
+  font-size: 18px;
+}
+.users .search input {
+  position: absolute;
+  height: 42px;
+  width: calc(100% - 50px);
+  border: 1px solid;
+  padding: 0 13px;
+  font-size: 16px;
+  border-radius: 5px 0;
+  outline: none;
+}
+.users .search button {
+  width: 47px;
+  height: 42px;
+  color: #fff;
+  background: #333;
+  font-size: 17px;
+  border-radius: 0 5px 5px 0;
+}
+
+/*# sourceMappingURL=main.css.map */

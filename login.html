@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat app</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="flex items-center justify-center min-h-screen">
+  <div class="wrapper bg-white w-[540px] rounded-lg shadow-lg">
+    <section class="form signup">
+      <header>
+        Real Time ChatApp
+      </header>
+      <form action="#">
+        <div class="error-text text-center mb-[10px] border-solid border-[#f5c6cb]">
+          This is an error message!
+        </div>
+        <div class="field input flex flex-col">
+          <label class="text-gray-700" for="email">Email Address</label>
+          <input class="border border-gray-400 py-2 px-3 rounded-md" type="email" placeholder="Enter your email"
+            id="email">
+        </div>
+        <div class="field input flex flex-col">
+          <label class="text-gray-700" for="password">Password</label>
+          <input class="border border-gray-400 py-2 px-3 rounded-md" type="password" placeholder="Enter new password"
+            id="password">
+        </div>
+        <div class="w-full">
+          <input class="bg-gray-900 cursor-pointer text-white font-bold py-2 px-4 rounded w-full" type="submit"
+            value="Continue to Chat">
+        </div>
+      </form>
+      <div class="link">
+        Already signed up? <a href="#" class="text-blue-500 hover:underline">Login</a>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
